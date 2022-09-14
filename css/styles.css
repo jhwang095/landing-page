@@ -177,3 +177,24 @@ a {
 /** TESTIMONIAL SECTION **/
 /*****************************/
 
+.testimonial {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 8% 25%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+    display: flex;
+    align-content: center;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 12px;
+}
