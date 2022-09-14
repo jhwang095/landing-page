@@ -132,3 +132,39 @@ a {
     flex-basis: 50%;
     justify-content: center;
 }
+
+
+/*****************************/
+/** INFO SECTION **/
+/*****************************/
+
+.information-container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+    padding-bottom: 160px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 60px;
+}
+
+.info-box img {
+    border: 4px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.info-box p {
+    text-align: center;
+    padding-top: 8px;
+}
