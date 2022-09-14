@@ -1,2 +1,2 @@
 # landing-page
-First landing page using flexbox
+First landing page using Flexbox
