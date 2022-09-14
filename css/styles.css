@@ -185,7 +185,7 @@ a {
 }
 
 blockquote {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: lighter;
     font-style:italic;
     display: flex;
@@ -197,4 +197,35 @@ blockquote {
     font-weight: 700;
     font-size: 22px;
     padding: 12px;
+}
+
+
+/*****************************/
+/** CTA SECTION **/
+/*****************************/
+
+/* #3882f6; */
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+    margin: 120px 250px;
+}
+
+.cta-message {
+    color: #F9FAF8;
+}
+
+.cta-button {
+    /* width: 100px; */
+    padding: 8px 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
